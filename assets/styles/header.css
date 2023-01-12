@@ -1,0 +1,42 @@
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    color: #333;
+    font-size: 14px;
+    transition: background-color ease-in-out 0.1s;
+}
+
+.dropdown-btn:hover,
+.dropdown-btn.uk-open {
+    text-decoration: none;
+}
+
+.dropdown-btn > .uk-icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+}
+
+.dropdown-btn > i {
+    font-size: 10px;
+}
+
+#header .menu-button {
+    padding: 0 !important;
+    margin-right: 0 !important;
+    background: none !important;
+    border-bottom: none !important;
+}
+
+#header .menu-button i {
+    color: #222;
+    font-size: 19px;
+    opacity: 0.85;
+    transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+#header .menu-button:hover i {
+    color: #0f6ecd;
+    opacity: 1.0;
+}
