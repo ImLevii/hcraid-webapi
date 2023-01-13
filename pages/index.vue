@@ -4,8 +4,8 @@
       <div class="brand">
         <img src="~assets/images/minexd-logo.png" />
         <span class="player-count">
-          CLICK IP TO JOIN
-          <strong ref="player-count">HcRaid</strong> TODAY
+          <span data-playercounter-ip="play.hcraid.net">0</span>
+          RAIDERS ONLINE
         </span>
         <button
           @click="copyServerAddress()"
@@ -302,7 +302,7 @@
   text-shadow: 1px 0 2px #212121;
 }
 </style>
-
+<script src="util/counter.js"></script>
 <script>
 import { gsap } from "gsap";
 
