@@ -128,7 +128,7 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: "https://www.hcraid.net:3000/api",
+    baseURL: "http://129.213.49.0:7246/api/",
     // baseURL: 'http://evilblock.net/api',
     progress: true,
     https: false,
