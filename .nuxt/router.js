@@ -4,43 +4,43 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4a2307e9 = () => interopDefault(import('../pages/forums/index.vue' /* webpackChunkName: "pages/forums/index" */))
-const _40ac070d = () => interopDefault(import('../pages/leaderboards/index.vue' /* webpackChunkName: "pages/leaderboards/index" */))
-const _50e115b6 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _41f60ab2 = () => interopDefault(import('../pages/notifications/index.vue' /* webpackChunkName: "pages/notifications/index" */))
-const _2e1e9f9f = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
-const _35680eda = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
-const _2b7ef69f = () => interopDefault(import('../pages/staff/index.vue' /* webpackChunkName: "pages/staff/index" */))
-const _94b00864 = () => interopDefault(import('../pages/support/index.vue' /* webpackChunkName: "pages/support/index" */))
-const _037b9cb2 = () => interopDefault(import('../pages/wiki/index.vue' /* webpackChunkName: "pages/wiki/index" */))
-const _0bff2372 = () => interopDefault(import('../pages/jobs/artists.vue' /* webpackChunkName: "pages/jobs/artists" */))
-const _6f506d04 = () => interopDefault(import('../pages/jobs/developers.vue' /* webpackChunkName: "pages/jobs/developers" */))
-const _03d96aec = () => interopDefault(import('../pages/jobs/support.vue' /* webpackChunkName: "pages/jobs/support" */))
-const _6cc90f6e = () => interopDefault(import('../pages/legal/privacy.vue' /* webpackChunkName: "pages/legal/privacy" */))
-const _1274196d = () => interopDefault(import('../pages/legal/terms.vue' /* webpackChunkName: "pages/legal/terms" */))
-const _61c1c63e = () => interopDefault(import('../pages/register/complete.vue' /* webpackChunkName: "pages/register/complete" */))
-const _c056363e = () => interopDefault(import('../pages/staff/dashboard.vue' /* webpackChunkName: "pages/staff/dashboard" */))
-const _411e0634 = () => interopDefault(import('../pages/store/crypto/index.vue' /* webpackChunkName: "pages/store/crypto/index" */))
-const _978642b4 = () => interopDefault(import('../pages/support/tickets/index.vue' /* webpackChunkName: "pages/support/tickets/index" */))
-const _0517a973 = () => interopDefault(import('../pages/user/activate.vue' /* webpackChunkName: "pages/user/activate" */))
-const _9d913c96 = () => interopDefault(import('../pages/user/forgot-password.vue' /* webpackChunkName: "pages/user/forgot-password" */))
-const _163e0808 = () => interopDefault(import('../pages/user/friends/index.vue' /* webpackChunkName: "pages/user/friends/index" */))
-const _21ada118 = () => interopDefault(import('../pages/user/notifications.vue' /* webpackChunkName: "pages/user/notifications" */))
-const _6c2778a3 = () => interopDefault(import('../pages/user/settings.vue' /* webpackChunkName: "pages/user/settings" */))
-const _6523e906 = () => interopDefault(import('../pages/staff/tickets/all.vue' /* webpackChunkName: "pages/staff/tickets/all" */))
-const _6545fc39 = () => interopDefault(import('../pages/staff/tickets/assigned.vue' /* webpackChunkName: "pages/staff/tickets/assigned" */))
-const _7357b118 = () => interopDefault(import('../pages/support/tickets/new.vue' /* webpackChunkName: "pages/support/tickets/new" */))
-const _cacd4404 = () => interopDefault(import('../pages/user/friends/requests.vue' /* webpackChunkName: "pages/user/friends/requests" */))
-const _0174f89d = () => interopDefault(import('../pages/store/crypto/transaction/_id.vue' /* webpackChunkName: "pages/store/crypto/transaction/_id" */))
-const _146fa6c2 = () => interopDefault(import('../pages/staff/tickets/_id.vue' /* webpackChunkName: "pages/staff/tickets/_id" */))
-const _9ac35ae4 = () => interopDefault(import('../pages/support/tickets/_id.vue' /* webpackChunkName: "pages/support/tickets/_id" */))
-const _5b9fb064 = () => interopDefault(import('../pages/forums/_slug/index.vue' /* webpackChunkName: "pages/forums/_slug/index" */))
-const _1a5cad7b = () => interopDefault(import('../pages/player/_username.vue' /* webpackChunkName: "pages/player/_username" */))
-const _07a08a22 = () => interopDefault(import('../pages/player/_username/stats/practice.vue' /* webpackChunkName: "pages/player/_username/stats/practice" */))
-const _989e8382 = () => interopDefault(import('../pages/player/_username/stats/prison.vue' /* webpackChunkName: "pages/player/_username/stats/prison" */))
-const _7f1c50b2 = () => interopDefault(import('../pages/forums/_slug/new.vue' /* webpackChunkName: "pages/forums/_slug/new" */))
-const _2a86283b = () => interopDefault(import('../pages/forums/_thread/_slug.vue' /* webpackChunkName: "pages/forums/_thread/_slug" */))
-const _0de7d20e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _51b53e80 = () => interopDefault(import('../pages/forums/index.vue' /* webpackChunkName: "pages/forums/index" */))
+const _15e822a4 = () => interopDefault(import('../pages/leaderboards/index.vue' /* webpackChunkName: "pages/leaderboards/index" */))
+const _447b502e = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _9d675c20 = () => interopDefault(import('../pages/notifications/index.vue' /* webpackChunkName: "pages/notifications/index" */))
+const _78e4fbf6 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
+const _e990e41e = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
+const _661ab230 = () => interopDefault(import('../pages/staff/index.vue' /* webpackChunkName: "pages/staff/index" */))
+const _6e1e8452 = () => interopDefault(import('../pages/support/index.vue' /* webpackChunkName: "pages/support/index" */))
+const _9e3a5784 = () => interopDefault(import('../pages/wiki/index.vue' /* webpackChunkName: "pages/wiki/index" */))
+const _f1fa71c4 = () => interopDefault(import('../pages/jobs/artists.vue' /* webpackChunkName: "pages/jobs/artists" */))
+const _2c782d47 = () => interopDefault(import('../pages/jobs/developers.vue' /* webpackChunkName: "pages/jobs/developers" */))
+const _e9d4b93e = () => interopDefault(import('../pages/jobs/support.vue' /* webpackChunkName: "pages/jobs/support" */))
+const _ffdc5d12 = () => interopDefault(import('../pages/legal/privacy.vue' /* webpackChunkName: "pages/legal/privacy" */))
+const _98306c94 = () => interopDefault(import('../pages/legal/terms.vue' /* webpackChunkName: "pages/legal/terms" */))
+const _a6949b2c = () => interopDefault(import('../pages/register/complete.vue' /* webpackChunkName: "pages/register/complete" */))
+const _03f548aa = () => interopDefault(import('../pages/staff/dashboard.vue' /* webpackChunkName: "pages/staff/dashboard" */))
+const _96a5cf06 = () => interopDefault(import('../pages/store/crypto/index.vue' /* webpackChunkName: "pages/store/crypto/index" */))
+const _120b87af = () => interopDefault(import('../pages/support/tickets/index.vue' /* webpackChunkName: "pages/support/tickets/index" */))
+const _18606b7c = () => interopDefault(import('../pages/user/activate.vue' /* webpackChunkName: "pages/user/activate" */))
+const _27daf38c = () => interopDefault(import('../pages/user/forgot-password.vue' /* webpackChunkName: "pages/user/forgot-password" */))
+const _290bb8c2 = () => interopDefault(import('../pages/user/friends/index.vue' /* webpackChunkName: "pages/user/friends/index" */))
+const _122c86a2 = () => interopDefault(import('../pages/user/notifications.vue' /* webpackChunkName: "pages/user/notifications" */))
+const _7f703aac = () => interopDefault(import('../pages/user/settings.vue' /* webpackChunkName: "pages/user/settings" */))
+const _42ba7e8f = () => interopDefault(import('../pages/staff/tickets/all.vue' /* webpackChunkName: "pages/staff/tickets/all" */))
+const _7d671760 = () => interopDefault(import('../pages/staff/tickets/assigned.vue' /* webpackChunkName: "pages/staff/tickets/assigned" */))
+const _cec90286 = () => interopDefault(import('../pages/support/tickets/new.vue' /* webpackChunkName: "pages/support/tickets/new" */))
+const _0f2ff1f2 = () => interopDefault(import('../pages/user/friends/requests.vue' /* webpackChunkName: "pages/user/friends/requests" */))
+const _6d70c374 = () => interopDefault(import('../pages/store/crypto/transaction/_id.vue' /* webpackChunkName: "pages/store/crypto/transaction/_id" */))
+const _59427bb0 = () => interopDefault(import('../pages/staff/tickets/_id.vue' /* webpackChunkName: "pages/staff/tickets/_id" */))
+const _f634ac52 = () => interopDefault(import('../pages/support/tickets/_id.vue' /* webpackChunkName: "pages/support/tickets/_id" */))
+const _30dbcbfb = () => interopDefault(import('../pages/forums/_slug/index.vue' /* webpackChunkName: "pages/forums/_slug/index" */))
+const _3a48c2d2 = () => interopDefault(import('../pages/player/_username.vue' /* webpackChunkName: "pages/player/_username" */))
+const _26896cb8 = () => interopDefault(import('../pages/player/_username/stats/practice.vue' /* webpackChunkName: "pages/player/_username/stats/practice" */))
+const _71a36370 = () => interopDefault(import('../pages/player/_username/stats/prison.vue' /* webpackChunkName: "pages/player/_username/stats/prison" */))
+const _c1ef33ee = () => interopDefault(import('../pages/forums/_slug/new.vue' /* webpackChunkName: "pages/forums/_slug/new" */))
+const _bdac8bdc = () => interopDefault(import('../pages/forums/_thread/_slug.vue' /* webpackChunkName: "pages/forums/_thread/_slug" */))
+const _7ad3ad17 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -60,152 +60,152 @@ export const routerOptions = {
 
   routes: [{
     path: "/forums",
-    component: _4a2307e9,
+    component: _51b53e80,
     name: "forums"
   }, {
     path: "/leaderboards",
-    component: _40ac070d,
+    component: _15e822a4,
     name: "leaderboards"
   }, {
     path: "/login",
-    component: _50e115b6,
+    component: _447b502e,
     name: "login"
   }, {
     path: "/notifications",
-    component: _41f60ab2,
+    component: _9d675c20,
     name: "notifications"
   }, {
     path: "/partners",
-    component: _2e1e9f9f,
+    component: _78e4fbf6,
     name: "partners"
   }, {
     path: "/register",
-    component: _35680eda,
+    component: _e990e41e,
     name: "register"
   }, {
     path: "/staff",
-    component: _2b7ef69f,
+    component: _661ab230,
     name: "staff"
   }, {
     path: "/support",
-    component: _94b00864,
+    component: _6e1e8452,
     name: "support"
   }, {
     path: "/wiki",
-    component: _037b9cb2,
+    component: _9e3a5784,
     name: "wiki"
   }, {
     path: "/jobs/artists",
-    component: _0bff2372,
+    component: _f1fa71c4,
     name: "jobs-artists"
   }, {
     path: "/jobs/developers",
-    component: _6f506d04,
+    component: _2c782d47,
     name: "jobs-developers"
   }, {
     path: "/jobs/support",
-    component: _03d96aec,
+    component: _e9d4b93e,
     name: "jobs-support"
   }, {
     path: "/legal/privacy",
-    component: _6cc90f6e,
+    component: _ffdc5d12,
     name: "legal-privacy"
   }, {
     path: "/legal/terms",
-    component: _1274196d,
+    component: _98306c94,
     name: "legal-terms"
   }, {
     path: "/register/complete",
-    component: _61c1c63e,
+    component: _a6949b2c,
     name: "register-complete"
   }, {
     path: "/staff/dashboard",
-    component: _c056363e,
+    component: _03f548aa,
     name: "staff-dashboard"
   }, {
     path: "/store/crypto",
-    component: _411e0634,
+    component: _96a5cf06,
     name: "store-crypto"
   }, {
     path: "/support/tickets",
-    component: _978642b4,
+    component: _120b87af,
     name: "support-tickets"
   }, {
     path: "/user/activate",
-    component: _0517a973,
+    component: _18606b7c,
     name: "user-activate"
   }, {
     path: "/user/forgot-password",
-    component: _9d913c96,
+    component: _27daf38c,
     name: "user-forgot-password"
   }, {
     path: "/user/friends",
-    component: _163e0808,
+    component: _290bb8c2,
     name: "user-friends"
   }, {
     path: "/user/notifications",
-    component: _21ada118,
+    component: _122c86a2,
     name: "user-notifications"
   }, {
     path: "/user/settings",
-    component: _6c2778a3,
+    component: _7f703aac,
     name: "user-settings"
   }, {
     path: "/staff/tickets/all",
-    component: _6523e906,
+    component: _42ba7e8f,
     name: "staff-tickets-all"
   }, {
     path: "/staff/tickets/assigned",
-    component: _6545fc39,
+    component: _7d671760,
     name: "staff-tickets-assigned"
   }, {
     path: "/support/tickets/new",
-    component: _7357b118,
+    component: _cec90286,
     name: "support-tickets-new"
   }, {
     path: "/user/friends/requests",
-    component: _cacd4404,
+    component: _0f2ff1f2,
     name: "user-friends-requests"
   }, {
     path: "/store/crypto/transaction/:id?",
-    component: _0174f89d,
+    component: _6d70c374,
     name: "store-crypto-transaction-id"
   }, {
     path: "/staff/tickets/:id?",
-    component: _146fa6c2,
+    component: _59427bb0,
     name: "staff-tickets-id"
   }, {
     path: "/support/tickets/:id",
-    component: _9ac35ae4,
+    component: _f634ac52,
     name: "support-tickets-id"
   }, {
     path: "/forums/:slug",
-    component: _5b9fb064,
+    component: _30dbcbfb,
     name: "forums-slug"
   }, {
     path: "/player/:username?",
-    component: _1a5cad7b,
+    component: _3a48c2d2,
     name: "player-username",
     children: [{
       path: "stats/practice",
-      component: _07a08a22,
+      component: _26896cb8,
       name: "player-username-stats-practice"
     }, {
       path: "stats/prison",
-      component: _989e8382,
+      component: _71a36370,
       name: "player-username-stats-prison"
     }]
   }, {
     path: "/forums/:slug/new",
-    component: _7f1c50b2,
+    component: _c1ef33ee,
     name: "forums-slug-new"
   }, {
     path: "/forums/:thread/:slug?",
-    component: _2a86283b,
+    component: _bdac8bdc,
     name: "forums-thread-slug"
   }, {
     path: "/",
-    component: _0de7d20e,
+    component: _7ad3ad17,
     name: "index"
   }],
 

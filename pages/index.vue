@@ -96,12 +96,12 @@
 }
 
 .brand img {
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 260px;
 }
 
 .brand .player-count {
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Rajdhani", sans-serif;
   font-size: 22px;
   font-weight: bold;
