@@ -1,50 +1,18 @@
 <template>
   <div class="uk-container uk-margin">
     <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-      <img class="brand" src="~assets/images/minexd-logo.png" alt="HcRaid" />
+      <!-- <img class="brand" src="~assets/images/minexd-logo.png" alt="HcRaid" /> -->
 
-      <ul class="leaderboard-links">
-        <!-- <li>
-          <button
-            v-bind:class="{ active: game === 'PRISON' }"
-            @click="selectGame('PRISON')"
-          >
-            <span>Prison</span>
-          </button>
-        </li> -->
-        <li>
-          <button
-            v-bind:class="{ active: game === 'FACTIONS' }"
-            @click="selectGame('FACTIONS')"
-          >
-            <span>Factions</span>
-          </button>
-        </li>
-        <li>
-          <button
-            v-bind:class="{ active: game === 'OVERKILL' }"
-            @click="selectGame('OVERKILL')"
-          >
-            <span>OVERKILL</span>
-          </button>
-        </li>
-        <!-- <li>
-          <button
-            v-bind:class="{ active: game === 'SKYWARS' }"
-            @click="selectGame('SKYWARS')"
-          >
-            <span>Skywars</span>
-          </button>
-        </li>
-        <li>
-          <button
-            v-bind:class="{ active: game === 'BEDWARS' }"
-            @click="selectGame('BEDWARS')"
-          >
-            <span>Bedwars</span>
-          </button>
-        </li> -->
-      </ul>
+      <!-- <ul class="leaderboard-links"> -->
+      <template>
+        <div>
+          <iframe
+            src="https://hcraid.net/stats"
+            width="1200"
+            height="738"
+          ></iframe>
+        </div>
+      </template>
     </div>
 
     <div v-if="leaderboards == null" class="lb-loading">
