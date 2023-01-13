@@ -21,14 +21,14 @@
                     /
                     {{ this.servers["factions"]["slots"] }} Players
                   </div>
-                  <div v-else>Next Map Reset - January 12th @ 3:00PM EST</div>
+                  <div v-else>Next Map Reset - February 3rd @ 3:00PM EST</div>
                 </div>
 
                 <p class="description"></p>
                 HcRaid Factions is the perfect server for practicing your PvP
                 skills. Gain experience and level up to unlock new rewards &
-                kits! Blow into faction bases with 1.8 cannons, fighting for
-                factions top.
+                kits! Blow into faction bases with 1.8 cannon mechanics,
+                fighting for factions top.
               </div>
             </div>
           </div>
