@@ -13,10 +13,10 @@
           </div>
           <ul class="uk-navbar-nav">
             <li class="uk-nav-icon">
-              <nuxt-link to="/forums/">
+              <!-- <nuxt-link to="/forums/">
                 <i class="fas fa-comments"></i>
                 <span class="name">Forums</span>
-              </nuxt-link>
+              </nuxt-link> -->
             </li>
             <li class="uk-nav-icon">
               <nuxt-link to="/leaderboards/">
@@ -54,12 +54,12 @@
           </template>
 
           <ul v-if="!this.$auth.loggedIn" class="uk-navbar-nav">
-            <li>
+            <!-- <li>
               <nuxt-link :to="{ name: 'login' }">Login</nuxt-link>
             </li>
             <li>
               <nuxt-link :to="{ name: 'register' }">Register</nuxt-link>
-            </li>
+            </li> -->
           </ul>
         </div>
       </nav>
@@ -198,7 +198,7 @@
 #navbar .navbar-logo-container .navbar-logo {
   width: 50px;
   height: 50px;
-  margin-right: 33px;
+  margin-right: 1px;
 }
 
 @media screen and (max-width: 540px) {
