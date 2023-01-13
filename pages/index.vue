@@ -3,10 +3,10 @@
     <div class="uk-container">
       <div class="brand">
         <img src="~assets/images/minexd-logo.png" />
-        <span class="player-count">
+        <!-- <span class="player-count">
           <span data-playercounter-ip="play.hcraid.net">0</span>
           RAIDERS ONLINE
-        </span>
+        </span> -->
         <button
           @click="copyServerAddress()"
           class="copy-ip-btn"
@@ -121,7 +121,7 @@
   margin-top: 10px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 1px 3px rgba(255, 255, 255, 0.19);
-  border-radius: 3px;
+  border-radius: 7px;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
