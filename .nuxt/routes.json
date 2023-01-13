@@ -2,225 +2,262 @@
   {
     "name": "forums",
     "path": "/forums",
-    "component": "/workspaces/apiv2/pages/forums/index.vue",
-    "chunkName": "pages/forums/index"
+    "component": "/project/apiv2/pages/forums/index.vue",
+    "chunkName": "pages/forums/index",
+    "_name": "_51b53e80"
   },
   {
     "name": "leaderboards",
     "path": "/leaderboards",
-    "component": "/workspaces/apiv2/pages/leaderboards/index.vue",
-    "chunkName": "pages/leaderboards/index"
+    "component": "/project/apiv2/pages/leaderboards/index.vue",
+    "chunkName": "pages/leaderboards/index",
+    "_name": "_15e822a4"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/workspaces/apiv2/pages/login.vue",
-    "chunkName": "pages/login"
+    "component": "/project/apiv2/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_447b502e"
   },
   {
     "name": "notifications",
     "path": "/notifications",
-    "component": "/workspaces/apiv2/pages/notifications/index.vue",
-    "chunkName": "pages/notifications/index"
+    "component": "/project/apiv2/pages/notifications/index.vue",
+    "chunkName": "pages/notifications/index",
+    "_name": "_9d675c20"
   },
   {
     "name": "partners",
     "path": "/partners",
-    "component": "/workspaces/apiv2/pages/partners.vue",
-    "chunkName": "pages/partners"
+    "component": "/project/apiv2/pages/partners.vue",
+    "chunkName": "pages/partners",
+    "_name": "_78e4fbf6"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "/workspaces/apiv2/pages/register/index.vue",
-    "chunkName": "pages/register/index"
+    "component": "/project/apiv2/pages/register/index.vue",
+    "chunkName": "pages/register/index",
+    "_name": "_e990e41e"
   },
   {
     "name": "staff",
     "path": "/staff",
-    "component": "/workspaces/apiv2/pages/staff/index.vue",
-    "chunkName": "pages/staff/index"
+    "component": "/project/apiv2/pages/staff/index.vue",
+    "chunkName": "pages/staff/index",
+    "_name": "_661ab230"
   },
   {
     "name": "support",
     "path": "/support",
-    "component": "/workspaces/apiv2/pages/support/index.vue",
-    "chunkName": "pages/support/index"
+    "component": "/project/apiv2/pages/support/index.vue",
+    "chunkName": "pages/support/index",
+    "_name": "_6e1e8452"
   },
   {
     "name": "wiki",
     "path": "/wiki",
-    "component": "/workspaces/apiv2/pages/wiki/index.vue",
-    "chunkName": "pages/wiki/index"
+    "component": "/project/apiv2/pages/wiki/index.vue",
+    "chunkName": "pages/wiki/index",
+    "_name": "_9e3a5784"
   },
   {
     "name": "jobs-artists",
     "path": "/jobs/artists",
-    "component": "/workspaces/apiv2/pages/jobs/artists.vue",
-    "chunkName": "pages/jobs/artists"
+    "component": "/project/apiv2/pages/jobs/artists.vue",
+    "chunkName": "pages/jobs/artists",
+    "_name": "_f1fa71c4"
   },
   {
     "name": "jobs-developers",
     "path": "/jobs/developers",
-    "component": "/workspaces/apiv2/pages/jobs/developers.vue",
-    "chunkName": "pages/jobs/developers"
+    "component": "/project/apiv2/pages/jobs/developers.vue",
+    "chunkName": "pages/jobs/developers",
+    "_name": "_2c782d47"
   },
   {
     "name": "jobs-support",
     "path": "/jobs/support",
-    "component": "/workspaces/apiv2/pages/jobs/support.vue",
-    "chunkName": "pages/jobs/support"
+    "component": "/project/apiv2/pages/jobs/support.vue",
+    "chunkName": "pages/jobs/support",
+    "_name": "_e9d4b93e"
   },
   {
     "name": "legal-privacy",
     "path": "/legal/privacy",
-    "component": "/workspaces/apiv2/pages/legal/privacy.vue",
-    "chunkName": "pages/legal/privacy"
+    "component": "/project/apiv2/pages/legal/privacy.vue",
+    "chunkName": "pages/legal/privacy",
+    "_name": "_ffdc5d12"
   },
   {
     "name": "legal-terms",
     "path": "/legal/terms",
-    "component": "/workspaces/apiv2/pages/legal/terms.vue",
-    "chunkName": "pages/legal/terms"
+    "component": "/project/apiv2/pages/legal/terms.vue",
+    "chunkName": "pages/legal/terms",
+    "_name": "_98306c94"
   },
   {
     "name": "register-complete",
     "path": "/register/complete",
-    "component": "/workspaces/apiv2/pages/register/complete.vue",
-    "chunkName": "pages/register/complete"
+    "component": "/project/apiv2/pages/register/complete.vue",
+    "chunkName": "pages/register/complete",
+    "_name": "_a6949b2c"
   },
   {
     "name": "staff-dashboard",
     "path": "/staff/dashboard",
-    "component": "/workspaces/apiv2/pages/staff/dashboard.vue",
-    "chunkName": "pages/staff/dashboard"
+    "component": "/project/apiv2/pages/staff/dashboard.vue",
+    "chunkName": "pages/staff/dashboard",
+    "_name": "_03f548aa"
   },
   {
     "name": "store-crypto",
     "path": "/store/crypto",
-    "component": "/workspaces/apiv2/pages/store/crypto/index.vue",
-    "chunkName": "pages/store/crypto/index"
+    "component": "/project/apiv2/pages/store/crypto/index.vue",
+    "chunkName": "pages/store/crypto/index",
+    "_name": "_96a5cf06"
   },
   {
     "name": "support-tickets",
     "path": "/support/tickets",
-    "component": "/workspaces/apiv2/pages/support/tickets/index.vue",
-    "chunkName": "pages/support/tickets/index"
+    "component": "/project/apiv2/pages/support/tickets/index.vue",
+    "chunkName": "pages/support/tickets/index",
+    "_name": "_120b87af"
   },
   {
     "name": "user-activate",
     "path": "/user/activate",
-    "component": "/workspaces/apiv2/pages/user/activate.vue",
-    "chunkName": "pages/user/activate"
+    "component": "/project/apiv2/pages/user/activate.vue",
+    "chunkName": "pages/user/activate",
+    "_name": "_18606b7c"
   },
   {
     "name": "user-forgot-password",
     "path": "/user/forgot-password",
-    "component": "/workspaces/apiv2/pages/user/forgot-password.vue",
-    "chunkName": "pages/user/forgot-password"
+    "component": "/project/apiv2/pages/user/forgot-password.vue",
+    "chunkName": "pages/user/forgot-password",
+    "_name": "_27daf38c"
   },
   {
     "name": "user-friends",
     "path": "/user/friends",
-    "component": "/workspaces/apiv2/pages/user/friends/index.vue",
-    "chunkName": "pages/user/friends/index"
+    "component": "/project/apiv2/pages/user/friends/index.vue",
+    "chunkName": "pages/user/friends/index",
+    "_name": "_290bb8c2"
   },
   {
     "name": "user-notifications",
     "path": "/user/notifications",
-    "component": "/workspaces/apiv2/pages/user/notifications.vue",
-    "chunkName": "pages/user/notifications"
+    "component": "/project/apiv2/pages/user/notifications.vue",
+    "chunkName": "pages/user/notifications",
+    "_name": "_122c86a2"
   },
   {
     "name": "user-settings",
     "path": "/user/settings",
-    "component": "/workspaces/apiv2/pages/user/settings.vue",
-    "chunkName": "pages/user/settings"
+    "component": "/project/apiv2/pages/user/settings.vue",
+    "chunkName": "pages/user/settings",
+    "_name": "_7f703aac"
   },
   {
     "name": "staff-tickets-all",
     "path": "/staff/tickets/all",
-    "component": "/workspaces/apiv2/pages/staff/tickets/all.vue",
-    "chunkName": "pages/staff/tickets/all"
+    "component": "/project/apiv2/pages/staff/tickets/all.vue",
+    "chunkName": "pages/staff/tickets/all",
+    "_name": "_42ba7e8f"
   },
   {
     "name": "staff-tickets-assigned",
     "path": "/staff/tickets/assigned",
-    "component": "/workspaces/apiv2/pages/staff/tickets/assigned.vue",
-    "chunkName": "pages/staff/tickets/assigned"
+    "component": "/project/apiv2/pages/staff/tickets/assigned.vue",
+    "chunkName": "pages/staff/tickets/assigned",
+    "_name": "_7d671760"
   },
   {
     "name": "support-tickets-new",
     "path": "/support/tickets/new",
-    "component": "/workspaces/apiv2/pages/support/tickets/new.vue",
-    "chunkName": "pages/support/tickets/new"
+    "component": "/project/apiv2/pages/support/tickets/new.vue",
+    "chunkName": "pages/support/tickets/new",
+    "_name": "_cec90286"
   },
   {
     "name": "user-friends-requests",
     "path": "/user/friends/requests",
-    "component": "/workspaces/apiv2/pages/user/friends/requests.vue",
-    "chunkName": "pages/user/friends/requests"
+    "component": "/project/apiv2/pages/user/friends/requests.vue",
+    "chunkName": "pages/user/friends/requests",
+    "_name": "_0f2ff1f2"
   },
   {
     "name": "store-crypto-transaction-id",
     "path": "/store/crypto/transaction/:id?",
-    "component": "/workspaces/apiv2/pages/store/crypto/transaction/_id.vue",
-    "chunkName": "pages/store/crypto/transaction/_id"
+    "component": "/project/apiv2/pages/store/crypto/transaction/_id.vue",
+    "chunkName": "pages/store/crypto/transaction/_id",
+    "_name": "_6d70c374"
   },
   {
     "name": "staff-tickets-id",
     "path": "/staff/tickets/:id?",
-    "component": "/workspaces/apiv2/pages/staff/tickets/_id.vue",
-    "chunkName": "pages/staff/tickets/_id"
+    "component": "/project/apiv2/pages/staff/tickets/_id.vue",
+    "chunkName": "pages/staff/tickets/_id",
+    "_name": "_59427bb0"
   },
   {
     "name": "support-tickets-id",
     "path": "/support/tickets/:id",
-    "component": "/workspaces/apiv2/pages/support/tickets/_id.vue",
-    "chunkName": "pages/support/tickets/_id"
+    "component": "/project/apiv2/pages/support/tickets/_id.vue",
+    "chunkName": "pages/support/tickets/_id",
+    "_name": "_f634ac52"
   },
   {
     "name": "forums-slug",
     "path": "/forums/:slug",
-    "component": "/workspaces/apiv2/pages/forums/_slug/index.vue",
-    "chunkName": "pages/forums/_slug/index"
+    "component": "/project/apiv2/pages/forums/_slug/index.vue",
+    "chunkName": "pages/forums/_slug/index",
+    "_name": "_30dbcbfb"
   },
   {
     "name": "player-username",
     "path": "/player/:username?",
-    "component": "/workspaces/apiv2/pages/player/_username.vue",
+    "component": "/project/apiv2/pages/player/_username.vue",
     "chunkName": "pages/player/_username",
     "children": [
       {
         "name": "player-username-stats-practice",
         "path": "stats/practice",
-        "component": "/workspaces/apiv2/pages/player/_username/stats/practice.vue",
-        "chunkName": "pages/player/_username/stats/practice"
+        "component": "/project/apiv2/pages/player/_username/stats/practice.vue",
+        "chunkName": "pages/player/_username/stats/practice",
+        "_name": "_26896cb8"
       },
       {
         "name": "player-username-stats-prison",
         "path": "stats/prison",
-        "component": "/workspaces/apiv2/pages/player/_username/stats/prison.vue",
-        "chunkName": "pages/player/_username/stats/prison"
+        "component": "/project/apiv2/pages/player/_username/stats/prison.vue",
+        "chunkName": "pages/player/_username/stats/prison",
+        "_name": "_71a36370"
       }
-    ]
+    ],
+    "_name": "_3a48c2d2"
   },
   {
     "name": "forums-slug-new",
     "path": "/forums/:slug/new",
-    "component": "/workspaces/apiv2/pages/forums/_slug/new.vue",
-    "chunkName": "pages/forums/_slug/new"
+    "component": "/project/apiv2/pages/forums/_slug/new.vue",
+    "chunkName": "pages/forums/_slug/new",
+    "_name": "_c1ef33ee"
   },
   {
     "name": "forums-thread-slug",
     "path": "/forums/:thread/:slug?",
-    "component": "/workspaces/apiv2/pages/forums/_thread/_slug.vue",
-    "chunkName": "pages/forums/_thread/_slug"
+    "component": "/project/apiv2/pages/forums/_thread/_slug.vue",
+    "chunkName": "pages/forums/_thread/_slug",
+    "_name": "_bdac8bdc"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/workspaces/apiv2/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/project/apiv2/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7ad3ad17"
   }
 ]
