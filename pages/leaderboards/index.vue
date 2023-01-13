@@ -7,7 +7,7 @@
       <template>
         <div>
           <iframe
-            src="https://hcraid.net/stats"
+            src="https://stats.hcraid.net/stats"
             width="1200"
             height="738"
           ></iframe>
