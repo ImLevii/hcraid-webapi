@@ -138,7 +138,7 @@
   position: absolute;
   display: none;
   opacity: 0;
-  bottom: -30px;
+  bottom: 30px;
   z-index: 1000;
   width: 300px;
   padding: 6px;
