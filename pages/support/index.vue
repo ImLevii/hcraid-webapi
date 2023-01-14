@@ -11,8 +11,7 @@
             <span class="page-title">Support Tickets</span>
             <span class="page-desc"
               >Contact our support team for general enquiries, payment issues,
-              account suspensions, and bug reports.</span
-            >
+              account suspensions, and bug reports.</span>
 
             <div class="panel-content">
               <ul class="ticket-icons uk-margin">

@@ -1,18 +1,11 @@
 <template>
   <div class="uk-container uk-margin">
+    <iframe src="https://stats.hcraid.net/stats" width="1200" height="738">
+    </iframe>
+
     <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <!-- <img class="brand" src="~assets/images/minexd-logo.png" alt="HcRaid" /> -->
-
       <!-- <ul class="leaderboard-links"> -->
-      <template>
-        <div>
-          <iframe
-            src="https://stats.hcraid.net/stats"
-            width="1200"
-            height="738"
-          ></iframe>
-        </div>
-      </template>
     </div>
 
     <div v-if="leaderboards == null" class="lb-loading">
