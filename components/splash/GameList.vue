@@ -21,7 +21,7 @@
                     /
                     {{ this.servers["factions"]["slots"] }} Players
                   </div>
-                  <div v-else>Next Map Reset - February 3rd @ 3:00PM EST</div>
+                  <div v-else>Next Map Reset - {{ timer }}</div>
                 </div>
 
                 <p class="description"></p>
@@ -54,7 +54,7 @@
                     /
                     {{ this.servers["overkill"]["slots"] }} Players
                   </div>
-                  <div v-else>Next Map Reset - April 19th @ 3:00PM EST</div>
+                  <!-- <div v-else>Next Map Reset - April 19th @ 3:00PM EST</div> -->
                 </div>
 
                 <p class="description">
@@ -130,7 +130,48 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      isFactionsOnline: false,
+      servers: {
+        factions: {
+          players: 0,
+          slots: 100,
+        },
+      },
+      timer: "n/a",
+    };
+  },
+  mounted() {
+    this.startTimer();
+  },
+  methods: {
+    startTimer() {
+      const resetTime = new Date("February 24th, 2023 15:00:00 EST");
+      const currentTime = new Date();
+      const timeDifference = resetTime - currentTime;
 
+      if (timeDifference <= 0) {
+        this.isFactionsOnline = true;
+        return;
+      }
+
+      this.timer = this.formatTime(timeDifference);
+      setTimeout(this.startTimer, 1000);
+    },
+    formatTime(ms) {
+      const seconds = Math.floor((ms / 1000) % 60);
+      const minutes = Math.floor((ms / 1000 / 60) % 60);
+      const hours = Math.floor((ms / (1000 * 60 * 60)) % 24);
+      const days = Math.floor(ms / (1000 * 60 * 60 * 24));
+
+      return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    },
+  },
+};
+</script>
 <style scoped>
 .games-list .game {
   display: inline-block;
