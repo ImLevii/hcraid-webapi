@@ -21,7 +21,7 @@
                     /
                     {{ this.servers["factions"]["slots"] }} Players
                   </div>
-                  <div v-else>Next Map Reset - {{ timer }}</div>
+                  <!-- <div v-else>Next Map Reset - {{ timer }}</div> -->
                 </div>
 
                 <p class="description"></p>
