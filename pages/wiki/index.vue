@@ -1,15 +1,21 @@
 <template>
   <div class="uk-container uk-margin">
-    <div class="page-section">
-      <span class="page-title">Wiki</span>
-      <iframe src="https://wiki.hcraid.net" width="1150" height="1500">
-      </iframe>
+    <div class="hero">
+      <!-- <span class="page-title">Wiki</span> -->
+      <iframe src="https://wiki.hcraid.net" height="600" width="3000"> </iframe>
     </div>
   </div>
 </template>
 
 <style scoped>
-.page-section {
-  padding: 20px;
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
 }
 </style>
+<script>
+export default {
+  layout: "dark",
+};
+</script>
