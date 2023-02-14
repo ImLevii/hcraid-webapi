@@ -31,6 +31,12 @@
               </nuxt-link>
             </li>
             <li class="uk-nav-icon">
+              <a href="https://wiki.hcraid.net">
+                <!--<i class="fas fa-credit-card"></i>-->
+                <span class="name">WIKI</span>
+              </a>
+            </li>
+            <li class="uk-nav-icon">
               <a href="https://store.hcraid.net">
                 <!--								<i class="fas fa-credit-card"></i>-->
                 <span class="name">Store</span>
