@@ -35,13 +35,6 @@
     "_name": "_78e4fbf6"
   },
   {
-    "name": "register",
-    "path": "/register",
-    "component": "/project/apiv2/pages/register/index.vue",
-    "chunkName": "pages/register/index",
-    "_name": "_e990e41e"
-  },
-  {
     "name": "staff",
     "path": "/staff",
     "component": "/project/apiv2/pages/staff/index.vue",
@@ -98,18 +91,18 @@
     "_name": "_98306c94"
   },
   {
-    "name": "register-complete",
-    "path": "/register/complete",
-    "component": "/project/apiv2/pages/register/complete.vue",
-    "chunkName": "pages/register/complete",
-    "_name": "_a6949b2c"
-  },
-  {
     "name": "staff-dashboard",
     "path": "/staff/dashboard",
     "component": "/project/apiv2/pages/staff/dashboard.vue",
     "chunkName": "pages/staff/dashboard",
     "_name": "_03f548aa"
+  },
+  {
+    "name": "staff-register",
+    "path": "/staff/register",
+    "component": "/project/apiv2/pages/staff/register/index.vue",
+    "chunkName": "pages/staff/register/index",
+    "_name": "_cc53e180"
   },
   {
     "name": "store-crypto",
@@ -159,6 +152,13 @@
     "component": "/project/apiv2/pages/user/settings.vue",
     "chunkName": "pages/user/settings",
     "_name": "_7f703aac"
+  },
+  {
+    "name": "staff-register-complete",
+    "path": "/staff/register/complete",
+    "component": "/project/apiv2/pages/staff/register/complete.vue",
+    "chunkName": "pages/staff/register/complete",
+    "_name": "_27c10a8a"
   },
   {
     "name": "staff-tickets-all",
