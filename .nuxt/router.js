@@ -9,7 +9,6 @@ const _15e822a4 = () => interopDefault(import('../pages/leaderboards/index.vue' 
 const _447b502e = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _9d675c20 = () => interopDefault(import('../pages/notifications/index.vue' /* webpackChunkName: "pages/notifications/index" */))
 const _78e4fbf6 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
-const _e990e41e = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
 const _661ab230 = () => interopDefault(import('../pages/staff/index.vue' /* webpackChunkName: "pages/staff/index" */))
 const _6e1e8452 = () => interopDefault(import('../pages/support/index.vue' /* webpackChunkName: "pages/support/index" */))
 const _9e3a5784 = () => interopDefault(import('../pages/wiki/index.vue' /* webpackChunkName: "pages/wiki/index" */))
@@ -18,8 +17,8 @@ const _2c782d47 = () => interopDefault(import('../pages/jobs/developers.vue' /* 
 const _e9d4b93e = () => interopDefault(import('../pages/jobs/support.vue' /* webpackChunkName: "pages/jobs/support" */))
 const _ffdc5d12 = () => interopDefault(import('../pages/legal/privacy.vue' /* webpackChunkName: "pages/legal/privacy" */))
 const _98306c94 = () => interopDefault(import('../pages/legal/terms.vue' /* webpackChunkName: "pages/legal/terms" */))
-const _a6949b2c = () => interopDefault(import('../pages/register/complete.vue' /* webpackChunkName: "pages/register/complete" */))
 const _03f548aa = () => interopDefault(import('../pages/staff/dashboard.vue' /* webpackChunkName: "pages/staff/dashboard" */))
+const _cc53e180 = () => interopDefault(import('../pages/staff/register/index.vue' /* webpackChunkName: "pages/staff/register/index" */))
 const _96a5cf06 = () => interopDefault(import('../pages/store/crypto/index.vue' /* webpackChunkName: "pages/store/crypto/index" */))
 const _120b87af = () => interopDefault(import('../pages/support/tickets/index.vue' /* webpackChunkName: "pages/support/tickets/index" */))
 const _18606b7c = () => interopDefault(import('../pages/user/activate.vue' /* webpackChunkName: "pages/user/activate" */))
@@ -27,6 +26,7 @@ const _27daf38c = () => interopDefault(import('../pages/user/forgot-password.vue
 const _290bb8c2 = () => interopDefault(import('../pages/user/friends/index.vue' /* webpackChunkName: "pages/user/friends/index" */))
 const _122c86a2 = () => interopDefault(import('../pages/user/notifications.vue' /* webpackChunkName: "pages/user/notifications" */))
 const _7f703aac = () => interopDefault(import('../pages/user/settings.vue' /* webpackChunkName: "pages/user/settings" */))
+const _27c10a8a = () => interopDefault(import('../pages/staff/register/complete.vue' /* webpackChunkName: "pages/staff/register/complete" */))
 const _42ba7e8f = () => interopDefault(import('../pages/staff/tickets/all.vue' /* webpackChunkName: "pages/staff/tickets/all" */))
 const _7d671760 = () => interopDefault(import('../pages/staff/tickets/assigned.vue' /* webpackChunkName: "pages/staff/tickets/assigned" */))
 const _cec90286 = () => interopDefault(import('../pages/support/tickets/new.vue' /* webpackChunkName: "pages/support/tickets/new" */))
@@ -79,10 +79,6 @@ export const routerOptions = {
     component: _78e4fbf6,
     name: "partners"
   }, {
-    path: "/register",
-    component: _e990e41e,
-    name: "register"
-  }, {
     path: "/staff",
     component: _661ab230,
     name: "staff"
@@ -115,13 +111,13 @@ export const routerOptions = {
     component: _98306c94,
     name: "legal-terms"
   }, {
-    path: "/register/complete",
-    component: _a6949b2c,
-    name: "register-complete"
-  }, {
     path: "/staff/dashboard",
     component: _03f548aa,
     name: "staff-dashboard"
+  }, {
+    path: "/staff/register",
+    component: _cc53e180,
+    name: "staff-register"
   }, {
     path: "/store/crypto",
     component: _96a5cf06,
@@ -150,6 +146,10 @@ export const routerOptions = {
     path: "/user/settings",
     component: _7f703aac,
     name: "user-settings"
+  }, {
+    path: "/staff/register/complete",
+    component: _27c10a8a,
+    name: "staff-register-complete"
   }, {
     path: "/staff/tickets/all",
     component: _42ba7e8f,
