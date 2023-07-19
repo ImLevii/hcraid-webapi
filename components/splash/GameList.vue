@@ -6,7 +6,7 @@
           <div class="content">
             <div class="info">
               <div class="name">
-                <h1>Factions</h1>
+                <h1>Survival</h1>
                 <div
                   class="presence"
                   v-bind:class="{ online: isFactionsOnline }"
@@ -25,10 +25,8 @@
                 </div>
 
                 <p class="description"></p>
-                HcRaid Factions is the perfect server for practicing your PvP
-                skills. Gain experience and level up to unlock new rewards &
-                kits! Blow into faction bases with 1.8 cannon mechanics,
-                fighting for factions top.
+                <!--HcRaid Survival is the perfect server for practicing your PvE
+                and PvP skills. -->
               </div>
             </div>
           </div>
