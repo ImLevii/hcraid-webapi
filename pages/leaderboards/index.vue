@@ -4,7 +4,7 @@
     </iframe>
 
     <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-      <!-- <img class="brand" src="~assets/images/minexd-logo.png" alt="HcRaid" /> -->
+      <!--  <img class="brand" src="~assets/images/minexd-logo.png" alt="HcRaid" /> -->
       <!-- <ul class="leaderboard-links"> -->
     </div>
 
