@@ -19,7 +19,7 @@
               </nuxt-link> -->
             </li>
             <li class="uk-nav-icon">
-              <nuxt-link to="/leaderboards/">
+              <a href="https://stats.hcraid.net/stats">
                 <!--								<i class="fas fa-comments"></i>-->
                 <span class="name">Leaderboards</span>
               </nuxt-link>
