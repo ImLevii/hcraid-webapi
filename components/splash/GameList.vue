@@ -211,7 +211,7 @@ export default {
   background-image: url("~assets/images/games/prison-avatar-blurred.png");
 }
 
-.games-list .game.skywars {
+.games-list .game.skyblock {
   background-image: url("~assets/images/games/caves-blurred.png");
 }
 
@@ -349,12 +349,6 @@ export default {
       return (
         this.servers.hasOwnProperty("factions") &&
         this.servers["factions"]["online"]
-      );
-    },
-    isSkywarsOnline: function () {
-      return (
-        this.groups.hasOwnProperty("skywars") &&
-        this.groups["skywars"]["online"]
       );
     },
     isBedwarsOnline: function () {
