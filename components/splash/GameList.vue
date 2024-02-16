@@ -6,7 +6,7 @@
           <div class="content">
             <div class="info">
               <div class="name">
-                <h1>Survival</h1>
+                <h1>Factions</h1>
                 <div
                   class="presence"
                   v-bind:class="{ online: isFactionsOnline }"
