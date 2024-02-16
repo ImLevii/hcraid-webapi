@@ -69,25 +69,25 @@
     </div>
     <div class="uk-grid uk-grid-match">
       <div class="uk-width-1-2@m">
-        <div class="game skywars">
+        <div class="game skyblock">
           <div class="content">
             <div class="info">
               <div class="name">
-                <h1>COMING SOON</h1>
-                <!-- <div
+                <h1>Skyblock</h1>
+                <div
                   class="presence"
-                  v-bind:class="{ online: isSkywarsOnline }">
+                  v-bind:class="{ online: isSkyblockOnline }">
                   <div class="inner"></div>
-                </div> -->
+                </div>
               </div>
               <div class="details">
                 <div class="players">
-                  <div v-if="isSkywarsOnline">
-                    {{ this.groups["skywars"]["players"] }}
+                  <div v-if="isSkyblockOnline">
+                    {{ this.groups["skyblock"]["players"] }}
                     /
-                    {{ this.groups["skywars"]["slots"] }} Players
+                    {{ this.groups["skyblock"]["slots"] }} Players
                   </div>
-                  <div v-else>N/A</div>
+                  <div v-else> </div>
                 </div>
 
                 <p class="description"></p>
